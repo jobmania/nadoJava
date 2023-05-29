@@ -97,6 +97,7 @@ public class _05_Stream {
                 .map(x -> x + " 어려워요")
                 .forEach(System.out::println);
         System.out.println("-=-----------------------------------");
+
         // c 라는 언어 포함하면 (어려워요) 대문자로 변환
         langList.stream()
                 .filter(x -> x.contains("c"))
